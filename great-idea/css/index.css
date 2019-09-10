@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+header nav{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header nav a{
+    color: #3FF06C;
+    margin: 0px 20px;
+    padding: 20px;
+    text-decoration: none;
+    background: #598EA0;
+}
+img{
+	max-width: 100%;
+}
+
+.intro{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 50px 0px 50px 0px;
+}
+p{
+	line-height: 16px;
+}
+#get-attention{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 0px 150px 0px;
+}
+#innovate, #innovate-logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+    
+}
+#innovate{
+    font-size: 75px;
+    margin-right: 50px;
+    padding:50px;
+    text-align: center;
+}
+#innovate-logo{
+    margin-left: 50px;
+}
+#button1{
+    padding: 10px 40px;
+    margin: 0px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+@keyframes link{
+    0%{background:black;}
+    25%{background:darkgreen;}
+    50%{background: darkblue;}
+    100%{background:blueviolet }
+}
+#button1:hover{
+    color: white;
+    font-size: 75%;
+    animation-name: link;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#title{
+    padding: 0px;
+    margin: 0px;
+}
+.cont-header{
+    margin-top: 25px;
+}
+.content{
+    width: 100%;
+    vertical-align: middle;
+}
+.content1{
+    display: inline-block;
+    text-align: left;
+    max-width: 49%;
+    font-family: 'Livvic', sans-serif;
+
+}
+.content2{
+    display: inline-block;
+    text-align: left;
+    max-width: 31%;
+    margin: 25px 0px 25px 0px;
+    font-family: 'Livvic', sans-serif;
+}
+.content img{
+    width: 100%;
+    padding: 10px;
+}
+footer{
+    margin-bottom: 100px;
+    padding: 25px;
+}
