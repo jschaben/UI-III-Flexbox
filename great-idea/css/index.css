@@ -77,9 +77,10 @@ header nav{
 	position: fixed;
 }
 header nav a{
-    color: grey;
+    color: #1A428E;
     padding: 50px 20px 0px 40px;
-    text-decoration: none;
+	text-decoration: none;
+	background: #AEA9A9;
 }
 .logo{
 	margin: 20px 0px 0px 110px;
