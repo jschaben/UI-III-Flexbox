@@ -73,7 +73,9 @@ header nav{
 	display: flex;
 	flex-wrap: wrap;
 }
-
+#navigation{
+	position: fixed;
+}
 header nav a{
     color: grey;
     padding: 50px 20px 0px 40px;
@@ -101,7 +103,7 @@ img{max-width: 100%;}
 #innovate, #innovate-logo{
     display: inline-block;
     vertical-align: middle;
-    margin-top: 100px;
+    margin-top: 50px;
     
 }
 #innovate{
@@ -123,9 +125,7 @@ ul{
 	font-size: 17px;
 	width: 900px;
 }
-#title{
-	font-size: 25px;
-}
+
 #button1{
     padding: 10px 40px;
     margin: 0px;
@@ -155,7 +155,7 @@ ul{
     animation-iteration-count: infinite;
 }
 #title{
-	font-size: 80px;
+	font-size: 25px;
 	padding: 20px 0px 20px 0px;
     margin: 0px;
 }
@@ -170,7 +170,8 @@ ul{
     display: inline-block;
     text-align: left;
     max-width: 49%;
-    font-family: 'Livvic', sans-serif;
+	font-family: 'Livvic', sans-serif;
+	padding-bottom: 15px;
 
 }
 .content2{
@@ -189,7 +190,7 @@ ul{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: 35px;
-	scroll-padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 .serv-item{
 	background: #E8E8E8;
